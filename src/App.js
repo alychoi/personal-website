@@ -5,7 +5,7 @@ import Idea from './Idea/idea.js';
 import Projects from './Projects/projects.js';
 import Video from './Projects/video.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import insta from './Home/insta.png';
 import linkedin from './Home/linkedin.png';
 import github from './Home/github.png';
@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-      <Route path='/' element={<Home />} />
+        <Route path='/' element={<Navigate to='/home' />} />
         <Route path='/home' element={<Home />} />
         <Route path='/idea-board' element={<Idea />} />
         <Route path='/technical-projects' element={<Projects />} />
