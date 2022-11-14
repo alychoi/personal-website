@@ -1,0 +1,79 @@
+.yf-img img {
+    width: 800px;
+    margin-left: 100px;
+}
+
+.lang-img img {
+    width: 700px;
+    margin-left: 50px;
+    margin-top: -170px;
+}
+
+.yf, .fs, .lang, .ws {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.yf-text, .lang-text, .fs-text, .ws-text {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 600px;
+}
+
+.yf-text p, .fs-text p, .lang-text p, .ws-text p {
+    font-size: 18px;
+}
+
+.yf-text p, .lang-text p {
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.ws-text p {
+    padding-top: 30px;
+}
+
+.fs-text p {
+    padding-top: 30px;
+}
+
+.fs-text, .ws-text {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 400px;
+}
+
+.fs-img img {
+    width: 350px;
+}
+
+.ws-img img {
+    width: 700px;
+}
+
+.ws-img {
+    margin-left: 0px;
+    margin-top: -50px;
+}
+
+.fs-img {
+    position: relative;
+    top: 30px;
+    margin-bottom: 200px;
+    right: 0;
+    z-index: 1;
+}
+
+.mr {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.mp {
+    position: absolute;
+    top: 80px;
+    left: 320px;
+}

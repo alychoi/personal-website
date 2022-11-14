@@ -1,0 +1,49 @@
+.table {
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.table tr {
+    border-top: 1px solid white;
+}
+
+.table a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.projectSource {
+    padding: 70px;
+}
+
+.projectSource:hover {
+    box-shadow: 0 0 3px white;
+    border-radius: 20px;
+}
+
+#p1:hover {
+    background-color: #e294de;
+    color: #212529
+}
+
+#p2:hover {
+    background-color: #89a3e6;
+    color: #212529
+}
+
+#p3:hover {
+    background-color: #9179e2;
+    color: #212529
+}
+
+#p4:hover {
+    background-color: #4990db;
+    color: #212529;
+}

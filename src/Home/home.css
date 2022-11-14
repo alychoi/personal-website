@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.prlx1 {
+    background-image: url('./paint_splash-01.png');
+    text-align: center;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prlx2 {
+    max-height: 100%;
+}
+
+.table {
+    margin-bottom: 0 !important;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.left {
+    background-image: url('./collage.png');
+    background-size: 40%;
+    background-attachment: fixed;
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+    background-color: #212529;
+
+    width: 50%;
+    vertical-align: middle;
+}
+
+.right {
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #212529;
+    color: white;
+}

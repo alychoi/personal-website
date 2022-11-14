@@ -1,0 +1,21 @@
+.nav-element {
+    color: #9B9C9E;
+    text-decoration: none;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.nav-element:hover {
+    color: #cdcdce;
+}
+
+.nav-element:active {
+    color: white;
+}
+
+#brand:hover {
+    color: #e294de;
+    text-shadow: 0 0 10px black;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
