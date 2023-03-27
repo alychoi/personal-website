@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import injectSheet from "react-jss";
 import './home.css'
 
@@ -24,6 +24,25 @@ const styles = {
 }
 
 const Home = ({classes}) => {
+
+    const [innerWidth, setInnerWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => setInnerWidth(window.innerWidth);
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
+    function topOrLeft(innerWidth) {
+        if (innerWidth <= 700) return "top"
+        return "left"
+    }
+
+    function bottomOrRight(innerWidth) {
+        if (innerWidth <= 700) return "bottom"
+        return "right"
+    }
+
     return (
         <div className={classes.Home}>
             <div className="prlx1">
@@ -37,8 +56,8 @@ const Home = ({classes}) => {
             <div className="prlx2">
                 <table className="table">
                     <tbody>
-                        <th className="left"></th>
-                        <th className="right">
+                        <th className={topOrLeft(innerWidth)}></th>
+                        <th className={bottomOrRight(innerWidth)}>
                             <h2><b>I like being <mark>active</mark>.</b></h2>
                             <h5>
                                 Fun fact: When I was six, I was afraid of water touching my face, but I learned how to swim within a month. 

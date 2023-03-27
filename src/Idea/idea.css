@@ -1,67 +1,50 @@
-.yf-img img {
-    width: 800px;
-    margin-left: 100px;
-}
-
-.lang-img img {
-    width: 700px;
-    margin-left: 50px;
-    margin-top: -170px;
-}
-
-.yf, .fs, .lang, .ws {
+.container {
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
-.yf-text, .lang-text, .fs-text, .ws-text {
-    margin-top: 50px;
-    margin-left: 50px;
-    width: 600px;
+@media screen and (max-width: 700px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .row {
+        border-top: 1px solid black;
+    }
 }
 
-.yf-text p, .fs-text p, .lang-text p, .ws-text p {
-    font-size: 18px;
+/* .row {
+    display: flex;
+    color: black;
+} */
+
+.cell {
+    flex: 1;
+    padding: 10px;
+    min-width: 300px;
 }
 
-.yf-text p, .lang-text p {
-    padding-right: 100px;
-    padding-top: 30px;
+img {
+    width: 100%;
 }
 
-.ws-text p {
-    padding-top: 30px;
+h1 {
+    padding-left: 9.5%;
 }
 
-.fs-text p {
-    padding-top: 30px;
-}
-
-.fs-text, .ws-text {
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 400px;
+p {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .fs-img img {
-    width: 350px;
-}
-
-.ws-img img {
-    width: 700px;
-}
-
-.ws-img {
-    margin-left: 0px;
-    margin-top: -50px;
+    width: 50%;
+    padding-top: 30px;
 }
 
 .fs-img {
     position: relative;
-    top: 30px;
-    margin-bottom: 200px;
+    top: 0;
+    margin-bottom: 30%; 
     right: 0;
     z-index: 1;
 }
@@ -74,6 +57,6 @@
 
 .mp {
     position: absolute;
-    top: 80px;
-    left: 320px;
+    top: 40%;
+    left: 45%;
 }

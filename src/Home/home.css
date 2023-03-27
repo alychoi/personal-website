@@ -16,6 +16,12 @@ html {
     max-height: 100%;
 }
 
+@media screen and (max-width: 700px) {
+    .prlx1 {
+        padding-top: 90%;
+    }
+}
+
 .table {
     margin-bottom: 0 !important;
     border-spacing: 0;
@@ -38,6 +44,19 @@ html {
 .right {
     padding: 50px;
     padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #212529;
+    color: white;
+}
+
+.bottom {
+    background-image: url('./collage.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 60%;
+    padding: 50px;
+    padding-top: 80%;
     padding-bottom: 50px;
     background-color: #212529;
     color: white;

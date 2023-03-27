@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from 'react-router-dom';
 import injectSheet from "react-jss";
 import "./Navbar.css"
@@ -20,6 +20,12 @@ const styles = {
 }
 
 const Navbar = ({classes}) => {
+  const [isCollapsed, setIsCollapsed] = useState(true);
+
+  function handleToggle() {
+    setIsCollapsed(!isCollapsed);
+  }
+
   return (
     <div className={classes.Navbar}>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -29,6 +35,7 @@ const Navbar = ({classes}) => {
       <button
         className="navbar-toggler"
         type="button"
+        onClick={handleToggle}
         data-toggle="collapse"
         data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown"
@@ -38,25 +45,25 @@ const Navbar = ({classes}) => {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarNavDropdown">
+      <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`} id="navbarNavDropdown" style={{paddingLeft: "20px"}}>
         <ul className="navbar-nav">
           <li className="nav-item active">
             <a className="nav-link" href="#">
-                <NavLink className="nav-element" to='/home'>
+                <NavLink className="nav-element" to='/home' onClick={handleToggle}>
                     Home 
                 </NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-                <NavLink className="nav-element" to='/idea-board'>
+                <NavLink className="nav-element" to='/idea-board' onClick={handleToggle}>
                     Idea Board
                 </NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-                <NavLink className="nav-element" to='/technical-projects'>
+                <NavLink className="nav-element" to='/technical-projects' onClick={handleToggle}>
                     Technical Projects
                 </NavLink>
             </a>

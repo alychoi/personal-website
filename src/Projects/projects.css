@@ -1,22 +1,33 @@
-.table {
+.container1 {
+    display: flex;
     color: white;
-    border-collapse: collapse;
-    width: 100%;
+    padding: 0;
 }
 
-.table td {
+@media screen and (max-width: 700px) {
+    .container1 {
+        flex-wrap: wrap;
+    }
+}
+
+/* .table td {
     width: 50%;
     vertical-align: middle;
-}
+} */
 
-.table tr {
+.cell1 {
     border-top: 1px solid white;
+    flex: 1;
 }
 
-.table a, a:hover, a:focus, a:active {
+.container1 a, a:hover, a:focus, a:active {
     text-decoration: none;
     display: block;
     color: white;
+}
+
+h2, h4 {
+    padding-left: 10%;
 }
 
 .projectSource {
