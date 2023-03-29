@@ -1,7 +1,6 @@
 import React from "react";
 import injectSheet from "react-jss";
 import my_resume from "./my_resume.png"
-import Magnifier from "react-magnifier";
 
 
 const styles = {
@@ -12,7 +11,10 @@ const styles = {
     Image: {
         paddingTop: "30px",
         paddingBottom: "100px",
-        paddingLeft: "27%"
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+        width: "65%"
     },
     Title: {
         color: "white",
@@ -28,7 +30,7 @@ const Resume = ({classes}) => {
         <div className={classes.Resume}>
             <h1 className={classes.Title}>My Resume</h1>
             <div className={classes.Image}>
-                <Magnifier src={my_resume} width={'65%'} mgWidth={300} mgHeight={300} zoomFactor={0.8} mgShape={'square'}/>
+                <img src={my_resume}></img>
             </div>
         </div>
     );
