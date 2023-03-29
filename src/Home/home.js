@@ -16,7 +16,7 @@ const styles = {
         backgroundColor: "#212529",
     },
     welc: {
-        //fontSize: "25px",
+        padding: "0",
     },
     intr: {
         //fontSize: "20px"
@@ -62,8 +62,8 @@ const Home = ({classes}) => {
                             <h5>
                                 Fun fact: When I was six, I was afraid of water touching my face, but I learned how to swim within a month. 
                                 Since then, I enjoy trying new sports and staying physically active, whether it's learning how to fence 
-                                or exercising at the gym. Right now, I'm learning how to play tennis and part of the TaeKwonDo club. 
-                                I've also started spin classes and it's super fun!
+                                or exercising at the gym. Right now, I'm learning how to play tennis. 
+                                I also took surfing lessons in Hawaii over the Spring and it's super fun!
                             </h5>
                             <br></br><br></br><br></br>
                             <h2><b>I like <mark>exploring</mark> new places.</b></h2>
@@ -76,7 +76,7 @@ const Home = ({classes}) => {
                             <br></br><br></br><br></br>
                             <h2><b>I like learning new <mark>skills</mark>.</b></h2>
                             <h5>
-                                I spend a lot of time tinkering on my computer. Right now, I'm taking an online data analytics course and learning how to use Blender.
+                                I spend a lot of time tinkering on my computer. Right now, I'm learning how to make 3D designs on Blender and develop mobile apps in Flutter.
                                 I'm interested in building my own brand and planning to learn video editing and social media branding.
                                 I also enjoy DIY crafts, including knitting, origami, and jewelry-making.
                             </h5>

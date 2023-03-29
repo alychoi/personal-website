@@ -96,7 +96,9 @@ const Navbar = ({classes}) => {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Contact
+                <NavLink className="nav-element" to='/resume' onClick={handleToggle}>
+                    Resume
+                </NavLink>
             </a>
           </li>
         </ul>
