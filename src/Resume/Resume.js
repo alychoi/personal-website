@@ -1,7 +1,7 @@
 import React from "react";
 import injectSheet from "react-jss";
-import Magnifier from "react-magnifier";
 import my_resume from "./my_resume.png"
+import Magnifier from "react-magnifier";
 
 
 const styles = {
@@ -23,6 +23,7 @@ const styles = {
 }
 
 const Resume = ({classes}) => {
+
     return (
         <div className={classes.Resume}>
             <h1 className={classes.Title}>My Resume</h1>

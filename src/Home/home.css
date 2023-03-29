@@ -49,6 +49,10 @@ html {
     color: white;
 }
 
+.top {
+    padding: 0;
+}
+
 .bottom {
     background-image: url('./collage.png');
     background-attachment: scroll;
