@@ -49,7 +49,7 @@ const Home = ({classes}) => {
                 <div className={classes.logo}></div>
                 <div className={classes.bio}>
                     <h2 className={classes.welc}><span style={{color:"#e294de"}}>Welcome</span> <span style={{color:"#89a3e6"}}>to</span> <span style={{color:"#4990db"}}>my</span> <span style={{color:"#9179e2"}}>online</span> <span style={{color:"#a923e7"}}>space</span></h2>
-                    <h3 className={classes.intr} style={{color:"white"}}>I'm Alyssa and I like tech + art.</h3>
+                    <h3 className={classes.intr} style={{color:"white"}}>I'm Alyssa and I like tech + business + art.</h3>
                     <h5 style={{color:"white"}}>I'm a student at Stony Brook studying computer science.</h5>
                 </div>
             </div>

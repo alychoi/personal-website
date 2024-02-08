@@ -1,6 +1,6 @@
 import React from "react";
 import injectSheet from "react-jss";
-import my_resume from "./my_resume.png"
+import my_resume from "./resume2024.png"
 
 
 const styles = {

@@ -34,11 +34,11 @@ const Projects = ({classes}) => {
                 </div>
                 <div className="row1">
                     <div className="cell1">
-                        <a target="_blank" rel="noopener noreferrer" className="projectSource" id="p3" href="http://moe.stuy.edu/~achoi21/BROOKS-FINAL/index.html">
-                            <h2>Project 03</h2>
+                        <Link to="/kakao-friends-video" className="projectSource" id="p3">
+                            <h2>Project 03</h2>  
                             <h4>Kakao Learn</h4>
-                            <p>Designed interactive website where you can learn Korean from a virtual Kakao Friends tutor.</p><br></br>
-                        </a>
+                            <p>Designed interactive website where you can learn Korean from a virtual Kakao Friends tutor.</p>
+                        </Link>
                     </div>
                     <div className="cell1">
                         <Link to="/avengers-video" className="projectSource" id="p4">
