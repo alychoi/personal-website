@@ -49,8 +49,10 @@ const Home = ({classes}) => {
                 <div className={classes.logo}></div>
                 <div className={classes.bio}>
                     <h2 className={classes.welc}><span style={{color:"#e294de"}}>Welcome</span> <span style={{color:"#89a3e6"}}>to</span> <span style={{color:"#4990db"}}>my</span> <span style={{color:"#9179e2"}}>online</span> <span style={{color:"#a923e7"}}>space</span></h2>
-                    <h3 className={classes.intr} style={{color:"white"}}>I'm Alyssa and I like tech + business + art.</h3>
-                    <h5 style={{color:"white"}}>I'm a student at Stony Brook studying computer science.</h5>
+                    <p className={classes.intr} style={{color:"white"}}>
+                        I'm Alyssa and I like tech + design + entrepreneurship.
+                        I'm a student at Stony Brook studying Computer Science.
+                    </p>
                 </div>
             </div>
             <div className="prlx2">
@@ -61,16 +63,15 @@ const Home = ({classes}) => {
                             <h2><b>I like being <mark>active</mark>.</b></h2>
                             <h5>
                                 Fun fact: When I was six, I was afraid of water touching my face, but I learned how to swim within a month. 
-                                Since then, I enjoy trying new sports and staying physically active, whether it's learning how to fence 
-                                or exercising at the gym. Right now, I'm learning how to play tennis. 
-                                I also took surfing lessons in Hawaii over the Spring and it's super fun!
+                                Since then, I enjoy trying new sports and staying physically active. Right now, I'm learning Muay Thai and tennis. 
+                                I'm a Group Fitness Pilates Instructor in college.
                             </h5>
                             <br></br><br></br><br></br>
                             <h2><b>I like <mark>exploring</mark> new places.</b></h2>
                             <h5>
                                 I love exploring new places, even though I often get lost from my poor sense of direction.
                                 I enjoy discovering yummy restaurants and cozy cafes throughout New York City.
-                                I also enjoy traveling to new countries. Recently, I've traveled to South Korea and Austria. 
+                                I also enjoy traveling to new countries. Recently, I've traveled to South Korea, Germany, and Mexico City. 
                                 My bucket list includes hiking to Machu Picchu, going on a solo Europe trip, and vacationing in Bora Bora.
                             </h5>
                             <br></br><br></br><br></br>
@@ -78,7 +79,7 @@ const Home = ({classes}) => {
                             <h5>
                                 I spend a lot of time tinkering on my computer. Right now, I'm learning how to make 3D designs on Blender and develop mobile apps in Flutter.
                                 I'm interested in building my own brand and planning to learn video editing and social media branding.
-                                I also enjoy DIY crafts, including knitting, origami, and jewelry-making.
+                                I also enjoy DIY crafts, including origami and jewelry-making.
                             </h5>
                         </th>
                     </tbody>

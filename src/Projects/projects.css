@@ -1,7 +1,8 @@
 .container1 {
-    display: flex;
+    display: block;
     color: white;
     padding: 0;
+    border-top: 1px solid white;
 }
 
 @media screen and (max-width: 750px) {
@@ -31,7 +32,7 @@ h2, h4 {
 }
 
 .projectSource {
-    padding: 70px;
+    padding: 40px;
 }
 
 .projectSource:hover {

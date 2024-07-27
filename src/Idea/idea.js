@@ -5,6 +5,7 @@ import MR from './marcus-rashford-01.png';
 import MP from './melanie-perkins-01.png';
 import Lang from './lang.png';
 import WS from './wonderscape.png';
+import BP from './baby_project-01.png';
 import './idea.css'
 
 const styles = {
@@ -38,7 +39,24 @@ const Idea = ({classes}) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="cell" style={{paddingTop:"15%",padding:"10%"}}>
+                    <div className="cell"><img src={BP} alt="Yoonique Friends"></img></div>
+                    <div className="cell" style={{paddingTop:"15%"}}>
+                        <h1>Smartglasses</h1>
+                        <p>
+                            I ideated a technology innovation - smartglasses - that can 
+                            help children with autism recognize facial expressions and
+                            emotions. The poster was designed with Adobe Illustrator.
+                        </p>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="cell">
+                        <div className="fs-img">
+                            <img src={MR} alt="Marcus Rashford" className="mr"></img>
+                            <img src={MP} alt="Melanie Perkins" className="mp"></img>
+                        </div>
+                    </div>
+                    <div className="cell" style={{paddingTop:"15%"}}>
                         <h1>Face Stickers</h1>
                         <p>
                             I used Adobe Illustrator to design portraits of people I admire: 
@@ -47,16 +65,11 @@ const Idea = ({classes}) => {
                             I have always wanted to start my own eCommerce business.
                         </p>
                     </div>
-                    <div className="cell">
-                        <div className="fs-img">
-                            <img src={MR} alt="Marcus Rashford" className="mr"></img>
-                            <img src={MP} alt="Melanie Perkins" className="mp"></img>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div className="row">
                     <div className="cell"><img src={Lang} alt="LangXplora"></img></div>
-                    <div className="cell" style={{paddingTop:"15%",padding:"10%"}}>
+                    <div className="cell" style={{paddingTop:"15%"}}>
                         <h1>LangXplora</h1>
                         <p>
                             LangXplora is an AR language learning mobile app. The user takes pictures
@@ -69,7 +82,8 @@ const Idea = ({classes}) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="cell" style={{paddingTop: "10%"}}>
+                    <div className="cell"><img src={WS} alt="WONDERSCAPE"></img></div>
+                    <div className="cell" style={{paddingTop: "5%"}}>
                         <h1>WONDERSCAPE</h1>
                         <p>
                             Wonderscape is an adventure-type game that is set in the ancient wonders around the world, 
@@ -78,7 +92,6 @@ const Idea = ({classes}) => {
                             However, the player has to avoid being seen by the people in the background, or else the course of history would be changed. 
                         </p>
                     </div>
-                    <div className="cell"><img src={WS} alt="WONDERSCAPE"></img></div>
                 </div>
             </div>
         </div>

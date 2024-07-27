@@ -3,7 +3,7 @@ html {
 }
 
 .prlx1 {
-    background-image: url('./paint_splash-01.png');
+    background-image: url('./background-01.png');
     text-align: center;
 
     background-attachment: fixed;
@@ -30,7 +30,7 @@ html {
 }
 
 .left {
-    background-image: url('./collage.png');
+    background-image: url('./collage_2.png');
     background-size: 40%;
     background-attachment: fixed;
     background-position: 10% 50%;
