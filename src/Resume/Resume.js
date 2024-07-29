@@ -14,7 +14,9 @@ const styles = {
         display: "block",
         marginLeft: "auto",
         marginRight: "auto",
-        width: "65%"
+        width: "70%",
+        // height: "100%"
+        // objectFit: "cover"
     },
     Title: {
         color: "white",
@@ -29,8 +31,8 @@ const Resume = ({classes}) => {
     return (
         <div className={classes.Resume}>
             <h1 className={classes.Title}>My Resume</h1>
-            <div className={classes.Image}>
-                <img src={my_resume}></img>
+            <div>
+                <img className={classes.Image} src={my_resume}></img>
             </div>
         </div>
     );
