@@ -29,8 +29,10 @@ const Navbar = ({classes}) => {
   return (
     <div className={classes.Navbar}>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className={classes.navbarBrand} id="brand" href="#">
-        Alyssa Choi
+      <a className={classes.navbarBrand} href="#">
+        <NavLink id="brand" to='/home' onClick={handleToggle}>
+            Alyssa Choi 
+        </NavLink>
       </a>
       <button
         className="navbar-toggler"

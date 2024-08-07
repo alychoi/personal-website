@@ -1,22 +1,11 @@
 import React from "react";
 import injectSheet from "react-jss";
-import my_resume from "./Alyssa_Choi_Resume-1.png"
-
+import "./resume.css";
 
 const styles = {
     Resume: {
         backgroundColor: "#212529",
         marginTop: "50px",
-    },
-    Image: {
-        paddingTop: "30px",
-        paddingBottom: "100px",
-        display: "block",
-        marginLeft: "auto",
-        marginRight: "auto",
-        width: "70%",
-        // height: "100%"
-        // objectFit: "cover"
     },
     Title: {
         color: "white",
@@ -32,7 +21,12 @@ const Resume = ({classes}) => {
         <div className={classes.Resume}>
             <h1 className={classes.Title}>My Resume</h1>
             <div>
-                <img className={classes.Image} src={my_resume}></img>
+                <a href="https://drive.google.com/file/d/1V8xTTjW476OR7KxBilgy2lxGR9B6q4ks/view?usp=sharing">
+                <iframe 
+                    className="resume"
+                    src="https://drive.google.com/file/d/1V8xTTjW476OR7KxBilgy2lxGR9B6q4ks/preview">
+                </iframe>
+                </a>
             </div>
         </div>
     );

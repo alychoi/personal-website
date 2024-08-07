@@ -13,8 +13,13 @@
     color: white;
 }
 
-#brand:hover {
+#brand {
+    text-decoration: none;
     color: #e294de;
+}
+
+#brand:hover {
+    color: #94e2d0;
     text-shadow: 0 0 10px black;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
