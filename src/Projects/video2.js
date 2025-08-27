@@ -1,7 +1,7 @@
 import React from "react";
 import injectSheet from "react-jss";
 import KakaoFriends from "./KakaoFriends.mp4";
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 const styles = {

@@ -23,6 +23,7 @@ const Resume = ({classes}) => {
             <div>
                 <a href="https://drive.google.com/file/d/1V8xTTjW476OR7KxBilgy2lxGR9B6q4ks/view?usp=sharing">
                 <iframe 
+                    title="resume"
                     className="resume"
                     src="https://drive.google.com/file/d/1V8xTTjW476OR7KxBilgy2lxGR9B6q4ks/preview">
                 </iframe>

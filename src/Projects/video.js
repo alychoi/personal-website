@@ -1,7 +1,7 @@
 import React from "react";
 import injectSheet from "react-jss";
 import Avengers from "./avengersVideo.mp4";
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 const styles = {
