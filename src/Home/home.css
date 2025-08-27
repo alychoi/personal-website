@@ -32,11 +32,16 @@ html {
     }
 }
 
+.table > :not(caption) > * > * {
+    --bs-table-bg: #5eaefd;              
+    --bs-table-color: white;  
+}
+
 .table {
     margin-bottom: 0 !important;
     border-spacing: 0;
     border-collapse: collapse;
-    width: 100%;
+    width: 100%;        
 }
 
 .left {
@@ -56,7 +61,7 @@ html {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #5eaefd;
-    color: white;
+    /* color: white; */
 }
 
 .top {
@@ -72,6 +77,6 @@ html {
     padding: 50px;
     padding-top: 80%;
     padding-bottom: 50px;
-    background-color: #212529;
-    color: white;
+    background-color: #5eaefd;
+    /* color: white; */
 }
