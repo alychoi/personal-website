@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const styles = {
     Projects: {
-        backgroundColor: "#212529",
-        color: "white",
+        backgroundColor: "white",
+        color: "black",
         marginTop: "50px",
     }
 }
@@ -15,7 +15,7 @@ const Projects = ({classes}) => {
     return (
         <div className={classes.Projects}>
             <h1 style={{paddingLeft:"15px",paddingTop:"15px",paddingBottom:"25px",borderBottom:"1px solid white"}}>Selected Projects</h1>
-            <div className="container1" style={{color:"white"}}>
+            <div className="container1" style={{color:"black"}}>
                 <div className="cell1">
                     {/* <div className="cell1"> */}
                         <a target="_blank" rel="noopener noreferrer" className="projectSource" id="p1" href="https://github.com/alychoi/AI-Twitter-Bot">

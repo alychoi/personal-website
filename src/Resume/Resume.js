@@ -4,11 +4,11 @@ import "./resume.css";
 
 const styles = {
     Resume: {
-        backgroundColor: "#212529",
+        backgroundColor: "white",
         marginTop: "50px",
     },
     Title: {
-        color: "white",
+        color: "black",
         textAlign: "center",
         padding: "0",
         paddingTop: "50px"

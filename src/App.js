@@ -6,6 +6,7 @@ import Projects from './Projects/projects.js';
 import Video from './Projects/video.js';
 import Video2 from './Projects/video2.js';
 import Resume from './Resume/Resume.js';
+import Misc from './Misc/misc.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import insta from './Home/insta.png';
@@ -24,8 +25,9 @@ function App() {
         <Route path='/avengers-video' element={<Video />} />
         <Route path='/kakao-friends-video' element={<Video2 />} />
         <Route path='/resume' element={<Resume />} />
+        <Route path='/misc' element={<Misc />} />
       </Routes>
-      <div style={{textAlign:"center",backgroundColor:"#212529",color:"white",borderTop:"1px solid white"}}>
+      <div style={{textAlign:"center",backgroundColor:"#F8F9FA",color:"black",borderTop:"1px solid black"}}>
           <p style={{paddingTop:"30px"}}>&#169; 2022 Alyssa Choi</p>
           <div style={{paddingBottom:"30px", display: "flex", justifyContent: "center"}} class="logos">
               <div>

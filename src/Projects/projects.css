@@ -2,7 +2,7 @@
     display: block;
     color: white;
     padding: 0;
-    border-top: 1px solid white;
+    border-top: 1px solid black;
 }
 
 @media screen and (max-width: 750px) {
@@ -17,14 +17,14 @@
 } */
 
 .cell1 {
-    border-top: 1px solid white;
+    border-top: 1px solid black;
     flex: 1;
 }
 
 .container1 a, a:hover, a:focus, a:active {
     text-decoration: none;
     display: block;
-    color: white;
+    color: black;
 }
 
 h2, h4 {

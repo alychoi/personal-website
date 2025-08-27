@@ -3,7 +3,7 @@ html {
 }
 
 .prlx1 {
-    background-image: url('./y2k4.png');
+    background-image: url('./y2k_website_bg.png');
     text-align: center;
 
     background-attachment: fixed;
@@ -16,10 +16,18 @@ html {
     max-height: 100%;
 }
 
+@media screen and (max-width: 1100px) {
+    .prlx1 {
+        background-size: 100%;
+        background-position: 50% 2%;
+        margin-top: -3%;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .prlx1 {
-        background-size: 150%;
-        background-position: 50% 2%;
+        background-size: 120%;
+        background-position: 30% 2%;
         padding-top: 8%;
     }
 }
@@ -32,12 +40,12 @@ html {
 }
 
 .left {
-    background-image: url('./collage (3).png');
+    background-image: url('./collage (4).png');
     background-size: 40%;
     background-attachment: fixed;
     background-position: 10% 50%;
     background-repeat: no-repeat;
-    background-color: #212529;
+    background-color: #5eaefd;
 
     width: 50%;
     vertical-align: middle;
@@ -47,7 +55,7 @@ html {
     padding: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #212529;
+    background-color: #5eaefd;
     color: white;
 }
 
@@ -56,7 +64,7 @@ html {
 }
 
 .bottom {
-    background-image: url('./collage_2.png');
+    background-image: url('./collage (4).png');
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: 50% 0%;
